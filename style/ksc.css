@@ -1,0 +1,57 @@
+body {
+    --ksc-background: #004b93;
+    --ksc-color: #fff;
+}
+
+.next-game {
+    background: var(--ksc-background); 
+    text-align: center;
+    box-shadow:0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
+@media (max-width: 500px) {
+    .next-game img.logo {
+        display: none;
+    }
+}
+
+.next-game img.logo {
+    width: 100px;
+}
+
+.next-game .body {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.next-game .body .info {
+    flex: auto;
+}
+
+.next-game > div, .next-game .puff__heading {
+    color: var(--ksc-color);
+}
+
+.next-game .teams {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.next-game .time {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.puff__image, .article-image {
+    box-shadow:0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
+.article__teams-header {
+    background: var(--ksc-background); 
+    color: var(--ksc-color);
+}
+
+.article__teams-header h1 {
+    color: var(--ksc-color);
+}
